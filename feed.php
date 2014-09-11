@@ -5,7 +5,7 @@
     $dropboxID = "123"; // Your Dropbox ID    
     date_default_timezone_set('America/New_York');// Change to your time zone. See http://php.net/manual/en/timezones.php for a list of supported time zones.
 
-    $path = "Watchlater-master"; // Create this path in the 'Public' folder inside your dropbox.
+    $path = "Watchlater-master"; // change this if you place the script in a different subfolder.
 
     $keepVids = 10; // Number of videos you want to keep in the folder. If you have more videos than this in your Dropbox, the script will automatically remove the oldest X videos.
 
