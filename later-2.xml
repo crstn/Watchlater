@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Watch Later</title>
+        <description>Watch Later from YouTube!</description>
+        <link>http://tylersmith.co</link>
+        <language>en-us</language>
+        <itunes:explicit>no</itunes:explicit>
+        <copyright>Do what you want...</copyright>
+        <itunes:image href="http://dl.dropboxusercontent.com/u/12380594/WatchLater/later.png" />
+        <itunes:category text="Business" />
+                <item>
+                    <title>Lecture 1 - How to Start a Startup-CBYhVcO4WgI.mp4</title>
+                    <description>Lecture 1 - How to Start a Startup-CBYhVcO4WgI.mp4</description>
+                    <link>http://dl.dropboxusercontent.com/u/12380594/WatchLater/Lecture%201%20-%20How%20to%20Start%20a%20Startup-CBYhVcO4WgI.mp4</link>
+                    <guid>http://dl.dropboxusercontent.com/u/12380594/WatchLater/Lecture%201%20-%20How%20to%20Start%20a%20Startup-CBYhVcO4WgI.mp4</guid>
+                    <enclosure url="http://dl.dropboxusercontent.com/u/12380594/WatchLater/Lecture%201%20-%20How%20to%20Start%20a%20Startup-CBYhVcO4WgI.mp4" length="87260333" type="video/mp4" />
+                    <pubDate>Tue, 23 Sep 2014 19:36:56 -0400</pubDate>
+                </item>
+                <item>
+                    <title>Marco Arment, Developer_Writer - XOXO Festival (2013)-D2RoYvcqhgM.mp4</title>
+                    <description>Marco Arment, Developer_Writer - XOXO Festival (2013)-D2RoYvcqhgM.mp4</description>
+                    <link>http://dl.dropboxusercontent.com/u/12380594/WatchLater/Marco%20Arment%2C%20Developer_Writer%20-%20XOXO%20Festival%20%282013%29-D2RoYvcqhgM.mp4</link>
+                    <guid>http://dl.dropboxusercontent.com/u/12380594/WatchLater/Marco%20Arment%2C%20Developer_Writer%20-%20XOXO%20Festival%20%282013%29-D2RoYvcqhgM.mp4</guid>
+                    <enclosure url="http://dl.dropboxusercontent.com/u/12380594/WatchLater/Marco%20Arment%2C%20Developer_Writer%20-%20XOXO%20Festival%20%282013%29-D2RoYvcqhgM.mp4" length="73558459" type="video/mp4" />
+                    <pubDate>Tue, 25 Feb 2014 19:34:54 -0500</pubDate>
+                </item>
+                <item>
+                    <title>PandoMonthly - Fireside Chat With Instagram Founder Kevin Systrom-Fgn2fhZBAVA.mp4</title>
+                    <description>PandoMonthly - Fireside Chat With Instagram Founder Kevin Systrom-Fgn2fhZBAVA.mp4</description>
+                    <link>http://dl.dropboxusercontent.com/u/12380594/WatchLater/PandoMonthly%20-%20Fireside%20Chat%20With%20Instagram%20Founder%20Kevin%20Systrom-Fgn2fhZBAVA.mp4</link>
+                    <guid>http://dl.dropboxusercontent.com/u/12380594/WatchLater/PandoMonthly%20-%20Fireside%20Chat%20With%20Instagram%20Founder%20Kevin%20Systrom-Fgn2fhZBAVA.mp4</guid>
+                    <enclosure url="http://dl.dropboxusercontent.com/u/12380594/WatchLater/PandoMonthly%20-%20Fireside%20Chat%20With%20Instagram%20Founder%20Kevin%20Systrom-Fgn2fhZBAVA.mp4" length="384754245" type="video/mp4" />
+                    <pubDate>Fri, 29 Aug 2014 10:40:05 -0400</pubDate>
+                </item>
+                <item>
+                    <title>Top 10 Mistakes Made by Entrepreneurs-gtHZUr3mdlY.mp4</title>
+                    <description>Top 10 Mistakes Made by Entrepreneurs-gtHZUr3mdlY.mp4</description>
+                    <link>http://dl.dropboxusercontent.com/u/12380594/WatchLater/Top%2010%20Mistakes%20Made%20by%20Entrepreneurs-gtHZUr3mdlY.mp4</link>
+                    <guid>http://dl.dropboxusercontent.com/u/12380594/WatchLater/Top%2010%20Mistakes%20Made%20by%20Entrepreneurs-gtHZUr3mdlY.mp4</guid>
+                    <enclosure url="http://dl.dropboxusercontent.com/u/12380594/WatchLater/Top%2010%20Mistakes%20Made%20by%20Entrepreneurs-gtHZUr3mdlY.mp4" length="221826573" type="video/mp4" />
+                    <pubDate>Fri, 06 Dec 2013 02:05:20 -0500</pubDate>
+                </item>
+                <item>
+                    <title>UserConf 2012 - Kevin Hale (Wufoo) - How to Design Software Users Love-tBWFfxE2658.mp4</title>
+                    <description>UserConf 2012 - Kevin Hale (Wufoo) - How to Design Software Users Love-tBWFfxE2658.mp4</description>
+                    <link>http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202012%20-%20Kevin%20Hale%20%28Wufoo%29%20-%20How%20to%20Design%20Software%20Users%20Love-tBWFfxE2658.mp4</link>
+                    <guid>http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202012%20-%20Kevin%20Hale%20%28Wufoo%29%20-%20How%20to%20Design%20Software%20Users%20Love-tBWFfxE2658.mp4</guid>
+                    <enclosure url="http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202012%20-%20Kevin%20Hale%20%28Wufoo%29%20-%20How%20to%20Design%20Software%20Users%20Love-tBWFfxE2658.mp4" length="90222678" type="video/mp4" />
+                    <pubDate>Sat, 18 Jan 2014 14:56:02 -0500</pubDate>
+                </item>
+                <item>
+                    <title>UserConf 2013 - Jeff Vincent (Wistia) - Using Static Resources to Scale Happy Customers-nppnE-Jbl-s.mp4</title>
+                    <description>UserConf 2013 - Jeff Vincent (Wistia) - Using Static Resources to Scale Happy Customers-nppnE-Jbl-s.mp4</description>
+                    <link>http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202013%20-%20Jeff%20Vincent%20%28Wistia%29%20-%20Using%20Static%20Resources%20to%20Scale%20Happy%20Customers-nppnE-Jbl-s.mp4</link>
+                    <guid>http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202013%20-%20Jeff%20Vincent%20%28Wistia%29%20-%20Using%20Static%20Resources%20to%20Scale%20Happy%20Customers-nppnE-Jbl-s.mp4</guid>
+                    <enclosure url="http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202013%20-%20Jeff%20Vincent%20%28Wistia%29%20-%20Using%20Static%20Resources%20to%20Scale%20Happy%20Customers-nppnE-Jbl-s.mp4" length="113937554" type="video/mp4" />
+                    <pubDate>Tue, 07 Jan 2014 14:20:04 -0500</pubDate>
+                </item>
+                <item>
+                    <title>UserConf 2013 - John Kim (Simple)-b6hantMAxqI.mp4</title>
+                    <description>UserConf 2013 - John Kim (Simple)-b6hantMAxqI.mp4</description>
+                    <link>http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202013%20-%20John%20Kim%20%28Simple%29-b6hantMAxqI.mp4</link>
+                    <guid>http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202013%20-%20John%20Kim%20%28Simple%29-b6hantMAxqI.mp4</guid>
+                    <enclosure url="http://dl.dropboxusercontent.com/u/12380594/WatchLater/UserConf%202013%20-%20John%20Kim%20%28Simple%29-b6hantMAxqI.mp4" length="43321435" type="video/mp4" />
+                    <pubDate>Tue, 07 Jan 2014 13:54:02 -0500</pubDate>
+                </item>
+   </channel>
+</rss>
