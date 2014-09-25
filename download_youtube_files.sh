@@ -6,8 +6,8 @@
 
 for file in Youtube_Links/*
 do
-	# Check if file exists
-	test -f "$file" || continue
+    # Check if file exists
+    test -f "$file" || continue
     # Download Youtube Video. Specified format b/c I wanted to conserve dropbox space. Details here: https://github.com/rg3/youtube-dl
     youtube-dl --no-playlist --format 18 "$(< $file)"
     # Make a new directory to save history of links
