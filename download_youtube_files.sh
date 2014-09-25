@@ -1,8 +1,6 @@
 #!/bin/bash
 # Loops through link files and downloads youtube videos using youtube-dl cli
 # An IFTTT Recipe Adds Links to "Youtube_Links" folder based on "Watch_Later" selection. 
-# Tyler Smith
-# 9/25/14
 
 for file in Youtube_Links/*
 do
