@@ -2,15 +2,15 @@
 
     // CONFIGURATION SETTINGS
 
-    $dropboxID = "123"; // Your Dropbox ID    
+    $dropboxID = "9209387"; // Your Dropbox ID
     date_default_timezone_set('America/New_York');// Change to your time zone. See http://php.net/manual/en/timezones.php for a list of supported time zones.
 
-    $path = "Watchlater-master"; // change this if you place the script in a different subfolder.
+    $path = "WatchLater"; // change this if you place the script in a different subfolder.
 
-    $keepVids = 10; // Number of videos you want to keep in the folder. If you have more videos than this in your Dropbox, the script will automatically remove the oldest X videos.
+    $keepVids = 50; // Number of videos you want to keep in the folder. If you have more videos than this in your Dropbox, the script will automatically remove the oldest X videos.
 
     echo "Generating podcast feed.\n";
- 
+
     //CONSTRUCT RSS FEED HEADERS
     $output = '<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
@@ -21,24 +21,24 @@
         <language>en-us</language>
         <itunes:explicit>no</itunes:explicit>
         <copyright>Do what you want...</copyright>
-        <itunes:image href="https://dl.dropboxusercontent.com/u/".$dropboxID."/".$path."/later.png" />
+        <itunes:image href="https://dl.dropboxusercontent.com/u/'.$dropboxID.'/'.$path.'/later.png" />
         <itunes:category text="Video" />';
- 
-    // we'll keep all videos in an associative array 
-    // that will allow us to delete old videos later 
-    $videos = array(); 
+
+    // we'll keep all videos in an associative array
+    // that will allow us to delete old videos later
+    $videos = array();
 
     // iterate through videos to generate RSS feed
     $dir = new DirectoryIterator(dirname("."));
     foreach ($dir as $fileinfo) {
-        
+
         if (!$fileinfo->isDot()) {
             $filename = $fileinfo->getFilename();
-            
-            if(substr($filename, -4) === ".mp4"){   
 
-                $videos[filemtime($filename)] = $filename; // save for the clean up                
-            
+            if(substr($filename, -4) === ".mp4"){
+
+                $videos[filemtime($filename)] = $filename; // save for the clean up
+
                 $fileurl = rawurlencode($filename);
                 $link = 'https://dl.dropboxusercontent.com/u/'.$dropboxID.'/'.$path.'/'.$fileurl;
                 $output .= '
@@ -50,15 +50,16 @@
                     <enclosure url="'.$link.'" length="'.filesize($filename).'" type="video/mp4" />
                     <pubDate>'.date ("r", filemtime($filename)).'</pubDate>
                 </item>';
-            }   
+            }
         }
     }
-    
+
    $output .= '
    </channel>
 </rss>';
- 
-    file_put_contents('later.xml', $output);
+
+    // file_put_contents('later.xml', $output);
+    file_put_contents('/Users/carsten/Dropbox/Public/WatchLater/later.xml', $output);
 
     echo "Checking for old videos to delete...\n";
 
@@ -75,11 +76,11 @@
                 echo($filename." deleted.\n");
             } else {
                 echo("Deleting ".$filename." failed.\n");
-            }            
-        }        
+            }
+        }
     }
-     
-    
-    echo "That's all, folks.\n";  
- 
+
+
+    echo "That's all, folks.\n";
+
 ?>
